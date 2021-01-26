@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.Fragment_Write_Encrypted_Message">
+
+    <!-- EditText for entering a phone number  -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/frame"
+        >
+        <EditText
+            android:id="@+id/editText_write_encrypted_message_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:autofillHints=""
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/inputs"
+            android:ellipsize="end"
+            android:focusableInTouchMode="true"
+            android:hint="@string/write_encrypted_message_phone_edit_text"
+            android:paddingStart="10dp"
+            android:imeOptions="actionDone"
+            android:inputType="phone"
+            android:maxLength="140"
+            android:textColor="@color/button_background" />
+
+        <ImageView
+            android:id="@+id/imageView_contacts"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_marginRight="35dp"
+            app:srcCompat="@drawable/user" />
+
+    </FrameLayout>
+
+
+    <!-- EditText for entering a message  -->
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView_contacts_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/frame"
+        android:layout_centerHorizontal="true"
+
+        app:srcCompat="@drawable/ic_add_box_black_24dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_fragment_write_encrypted_message"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/imageView_contacts_list"
+        android:layout_marginTop="18dp" />
+
+    <EditText
+        android:id="@+id/editText_write_encrypted_message_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recyclerView_fragment_write_encrypted_message"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:hint="@string/write_encrypted_message_message_edit_text"
+        android:maxLines="6"
+        android:lines="6"
+        android:paddingStart="10dp"
+        android:textColor="@color/button_background"
+        android:gravity="top|start"
+        android:background="@drawable/inputs"
+        android:inputType="textMultiLine" />
+
+    <!-- The smsSendMessage() method will be called by this button.  -->
+    <Button
+        android:id="@+id/button_write_encrypted_message_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_write_encrypted_message_box"
+        android:background="@drawable/button_background"
+        android:text="@string/write_encrypted_message_send"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/imageView_attach_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_write_encrypted_message_box"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@+id/button_write_encrypted_message_send"
+        app:srcCompat="@drawable/ic_attach_file_black_24dp" />
+    <ImageView
+        android:id="@+id/imageView_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_write_encrypted_message_box"
+        android:layout_marginTop="30dp"
+        android:layout_toStartOf="@+id/button_write_encrypted_message_send"
+        app:srcCompat="@drawable/ic_add_location_black_24dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView_attach_file_place_holder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_write_encrypted_message_send"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/ic_attach_file_black_24dp" />
+
+    <ImageView
+        android:id="@+id/imageView_recorder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="70dp"
+        android:layout_below="@id/frame"
+        android:layout_alignStart="@id/imageView_attach_file_place_holder"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/ic_adjust_black_24dp" />
+
+    <ImageView
+        android:id="@+id/imageView_speaker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/frame"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/ic_speaker_notes_black_24dp" />
+    <ImageView
+    android:id="@+id/imageView_recorder_placeholder"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_marginEnd="40dp"
+    android:layout_marginTop="20dp"
+    android:layout_below="@id/frame"
+    android:visibility="invisible"
+    app:srcCompat="@drawable/ic_adjust_black_24dp" />
+
+    <ImageView
+        android:id="@+id/imageView_video_placeholder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/frame"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/ic_ondemand_video_black_24dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView_file_placeholder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/frame"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/ic_file_download_black_24dp" />
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+
+
+</RelativeLayout>

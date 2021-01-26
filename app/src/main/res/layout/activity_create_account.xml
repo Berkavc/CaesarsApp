@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".activity.CreateAccount">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView_Logo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/sezar_icon_main"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <EditText
+                android:id="@+id/editText_create_account_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView_Logo"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:hint="@string/create_account_user_name"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="20dp"
+                android:inputType="textPersonName"
+                android:singleLine="true"
+                android:textStyle="bold"
+                android:padding="4dp"
+                android:background="@drawable/inputs"
+                android:drawableStart="@drawable/user"/>
+
+
+            <EditText
+                android:id="@+id/editText__create_account_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editText_create_account_name"
+                android:ems="10"
+                android:hint="@string/create_account_password"
+                android:inputType="numberPassword"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:singleLine="true"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:padding="4dp"
+                android:background="@drawable/inputs"
+                android:drawableStart="@drawable/password"/>
+
+
+            <EditText
+                android:id="@+id/editText_create_account_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editText__create_account_password"
+                android:ems="10"
+                android:hint="@string/create_account_email"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="20dp"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"
+                android:textStyle="bold"
+                android:padding="4dp"
+                android:background="@drawable/inputs"
+                android:drawableStart="@drawable/email"/>
+
+
+            <EditText
+                android:id="@+id/editText_create_phone"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editText_create_account_email"
+                android:ems="10"
+                android:hint="@string/create_account_phone"
+                android:inputType="phone"
+                android:singleLine="true"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_alignParentStart="true"
+                android:padding="4dp"
+                android:textAllCaps="false"
+                android:background="@drawable/inputs"
+                android:drawableStart="@drawable/phone"/>
+
+
+            <Button
+                android:id="@+id/button_create_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editText_create_phone"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_background"
+                android:text="@string/login_screen_create_account"
+                android:textColor="@color/text_color"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

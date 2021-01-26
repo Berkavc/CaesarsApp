@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/cardview_read_encrypted_message_list"
+    app:cardBackgroundColor="@color/button_background"
+    app:cardCornerRadius="10dp"
+    app:cardUseCompatPadding="true">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+        <TextView
+            android:id="@+id/textView_read_encrypted_message_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/read_encrypted_message_phone_number"
+            android:textAllCaps="false"
+            android:textSize="35sp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"/>
+
+
+
+
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/imageView_image_value_place_holder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:srcCompat="@drawable/gladiator_icon" />
+
+
+
+        <ImageView
+            android:id="@+id/imageView_record_value_place_holder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_adjust_black_24dp" />
+
+
+        <ImageView
+            android:id="@+id/imageView_video_value_place_holder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_ondemand_video_black_24dp" />
+
+
+
+        <ImageView
+            android:id="@+id/imageView_location_value_place_holder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_add_location_black_24dp" />
+
+        <ImageView
+            android:id="@+id/imageView_speech_value_place_holder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_speaker_notes_black_24dp" />
+
+        <VideoView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:id="@+id/videoView_video_value_place_holder"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/recyclerView_dialog"
+            android:visibility="gone"
+            android:layout_height="match_parent" />
+
+
+</com.google.android.material.card.MaterialCardView>

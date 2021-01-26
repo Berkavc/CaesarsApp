@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sezar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">CAESARSAPP</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+    <!-- LoginScreen: -->
+    <string name="login_screen_user_name">Username:</string>
+    <string name="login_screen_password">Password:</string>
+    <string name="login_screen_login">LOGIN</string>
+    <string name="login_screen_check_box">REMIND ME</string>
+    <string name="login_screen_create_account">CREATE AN ACCOUNT</string>
+    <string name="login_screen_forgot_password">I FORGOT MY PASSWORD</string>
+    <string name="login_screen_user_name_empty">USERNAME CANNOT BE EMPTY!</string>
+    <string name="login_screen_user_password_empty">PASSWORD CANNOT BE EMPTY!</string>
+    <string name="login_screen_account_status_error">THIS ACCOUNT IS ALREADY ACCESSED!</string>
+    <string name="login_screen_invalid_credentials">INVALID USERNAME OR PASSWORD!</string>
+    <string name="login_screen_successfull">WELCOME TO CAESARSAPP!</string>
+    <string name="login_screen_permission">PLEASE ALLOW PERMISSIONS TO USE APPLICATION!</string>
+    <string name="login_screen_invalid_phone_number">INVALID FINGERPRINT</string>
+    <string name="login_screen_caches_empty">CACHES ARE EMPTY!</string>
+    <string name="login_screen_permission_access">PERMISSION GRANTED!</string>
+    <string name="login_screen_internet_connection_failure">SERVER CONNECTION FAILURE!</string>
+    <string name="login_screen_permission_deny">"PLEASE ALLOW PERMISSIONS TO APPLICATION TO WORK CORRECTLY!"</string>
+    <string name="login_screen_accessing_from_different_device">YOUR ACCOUNT HAS BEEN ACCESSED FROM DIFFERENT DEVICE RATHER THAN THE DEVICE YOUR TELEPHONE NUMBER IS REGISTERED</string>
+    <string name="title_activity_create_account">CreateAccount</string>
+
+
+    <!-- CreateAccount: -->
+    <string name="create_account_user_name">Username:</string>
+    <string name="create_account_password">Password:</string>
+    <string name="create_account_email">E-Mail:</string>
+    <string name="create_account_phone">Phone Number:</string>
+    <string name="create_account_user_name_empty">USERNAME CANNOT BE EMPTY!</string>
+    <string name="create_account_password_empty">PASSWORD CANNOT BE EMPTY!</string>
+    <string name="create_account_email_empty">E-MAIL CANNOT BE EMPTY!</string>
+    <string name="create_account_phone_empty">PHONE NUMBER CANNOT BE EMPTY</string>
+    <string name="create_account_permission">PLEASE ALLOW PERMISSIONS TO USE APPLICATION!</string>
+    <string name="create_account_successfull">ACCOUNT CREATED SUCCESSFULLY!</string>
+    <string name="create_account_phone_format">INVALID PHONE NUMBER FORMAT!</string>
+    <string name="create_account_email_format">INVALID E-MAIL FORMAT!</string>
+    <string name="create_account_email_duplication">THIS E-MAIL IS ALREADY EXISTS!</string>
+    <string name="create_account_device_id_duplication">THIS DEVICE ID ALREADY EXISTS!</string>
+    <string name="create_account_user_name_duplication">THIS USERNAME IS ALREADY EXISTS!</string>
+    <string name="create_account_phone_duplication">THIS PHONE NUMBER ALREADY EXISTS!</string>
+    <string name="create_account_phone_contact">UNABLE TO ACCESS YOUR PHONE NUMBER , PLEASE ALLOW PERMISSIONS</string>
+
+    <!-- MainActivity: -->
+    <string name="main_activity_encrypted_message">Encrypted Message:</string>
+    <string name="main_activity_read_encrypted_message">Read Message</string>
+    <string name="main_activity_write_encrypted_message">Write Message</string>
+
+    <string name="main_activity_message_box">Message Box:</string>
+    <string name="main_activity_encrypted_message_list">Encrypted Messages</string>
+    <string name="main_activity_change_storage_area">Change Storage Area</string>
+
+    <string name="main_activity_settings">Settings:</string>
+    <string name="main_activity_change_background">Change Theme</string>
+    <string name="main_activity_change_app_icon">Change App Icon</string>
+    <string name="main_activity_safe_filter">SAFE FILTER FOR YOUR MESSAGE HAS BEEN ACTIVATED!</string>
+    <string name="main_activity_safe_filter_deactivate">SAFE FILTER FOR YOUR MESSAGE HAS BEEN DEACTIVATED!</string>
+
+    <string name="main_activity_help">Help:</string>
+    <string name="main_activity_about_us">About Us</string>
+    <string name="main_activity_contact_us">Contact Us</string>
+
+    <string name="main_activity_exit_application">Exit Application</string>
+    <string name="main_activity_delete_account">Delete Account</string>
+    <string name="main_activity_delete_account_yes">YES</string>
+    <string name="main_activity_delete_account_no">NO</string>
+    <string name="main_activity_change_account">Change Account</string>
+    <string name="main_activity_delete_account_message">YOUR ACCOUNT HAS BEEN DELETED SUCCESFULLY!</string>
+    <string name="main_activity_delete_account_alert_dialog">Are you sure to delete your account?(All credentials will be deleted , if you delete your account)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- AboutUs: -->
+    <string name="about_us_title">WHO AM I:</string>
+    <string name="about_us_context">IM A 4TH GRADE SOFTWARE ENGINEER STUDENT FROM YASAR UNIVERSITY WHO WANTS TO CREATE MOBILE APPLICATIONS.</string>
+    <string name="about_us_fact_title">CAESARSAPP FACTS:</string>
+    <string name="about_us_fact_number_one">1)FIRST ENCRYPTION ALGORITHM NAME IS BASED ON OUR GREAT EMPEROR "GAIUS JULIUS CAESAR" , WHICH CALLED "CAESAR CIPHER ALGORITHM" </string>
+    <string name="about_us_fact_number_two">2)BY THE WAY IM NOT OBSESSED WITH CAESAR , JUST A FRIENDLY REMINDER :)</string>
+    <string name="about_us_fact_number_three">3)Creator:Berk Avcıoğlu</string>
+    <!-- ContactUs: -->
+    <string name="contact_us_title">HOW CAN I IMPROVE , YOU CAN CONTACT US FROM THESE COMMUNICATION CREDENTIALS.</string>
+    <string name="contact_us_email">VIA E-MAIL:</string>
+    <string name="contact_us_feedback">THANK YOU FOR YOUR FEEDBACK!</string>
+    <string name="contact_us_email_one">1)berk_avcioglu@hotmail.com</string>
+
+
+    <!-- ChangeAppIcon: -->
+    <string name="change_app_icon_title">FEEL FREE TO CUSTOMIZE YOUR APPLICATION ICON:</string>
+    <string name="change_app_icon_number_one">DEFAULT APP ICON</string>
+    <string name="change_app_icon_number_two">APP ICON #1</string>
+
+
+    <!--WriteEncryptedMessage: -->
+    <string name="write_encrypted_message_title">SEND YOUR ENCRYPTION MESSAGE:</string>
+    <string name="write_encrypted_message_phone_number">PHONE NUMBER:</string>
+    <string name="write_encrypted_message_phone_format_fail">INVALID PHONE FORMAT</string>
+    <string name="write_encrypted_message_box">YOUR MESSAGE:</string>
+    <string name="write_encrypted_message_permission">PERMISSION DENIED CANNOT SEND MESSAGE</string>
+    <string name="write_encrypted_message_permission_success">PERMISSION ACCESSED!</string>
+    <string name="write_encrypted_message_succes">MESSAGE SENT SUCCESSFULLY!</string>
+    <string name="write_encrypted_message_fail">MESSAGE SENT IS FAILED</string>
+    <string name="write_encrypted_message_recycler_view_place_holder">+905312874647</string>
+    <string name="write_encrypted_message_send">SEND</string>
+    <string name="write_encrypted_message_box_empty">YOUR MESSAGE CANNOT BE EMPTY</string>
+    <string name="write_encrypted_message_reciever_name">SEND MESSAGE TO:</string>
+    <string name="write_encrypted_message_phone_empty">PHONE CANNOT BE EMPTY</string>
+    <string name="write_encrypted_message_doesnt_exist">THIS USER DOESNT EXISTS</string>
+    <string name="write_encrypted_message_cardview_cancel">CANCEL</string>
+    <string name="write_encrypted_message_cardview_remove">REMOVE USER</string>
+    <string name="write_encrypted_message_phone_edit_text">\t\tSend To:</string>
+    <string name="write_encrypted_message_message_edit_text">\t\tWrite your Message Here:</string>
+    <string name="write_encrypted_message_sms_title">MESSAGE ENCRYPTED BY CAESARSAPP</string>
+    <string name="write_encrypted_message_list_element_exists">THIS PHONE NUMBER IS ALREADY ADDED TO LIST</string>
+    <string name="write_encrypted_message_file_title">ADD FILE:</string>
+    <string name="write_encrypted_message_image_gallery">ADD PHOTO FROM GALLERY</string>
+    <string name="write_encrypted_message_image_photo">TAKE A PHOTO</string>
+    <string name="write_encrypted_message_audio_gallery">ADD AUDIO RECORDING FROM GALLERY</string>
+    <string name="write_encrypted_message_audio_record">TAKE A AUDIO RECORDING</string>
+    <string name="write_encrypted_message_change_photo">CHANGE PHOTO</string>
+    <string name="write_encrypted_message_remove_photo">REMOVE PHOTO</string>
+    <string name="write_encrypted_message_change_record">CHANGE RECORD</string>
+    <string name="write_encrypted_message_file">ADD FILE FROM DOCUMENTS</string>
+    <string name="write_encrypted_message_change_file">CHANGE FILE</string>
+    <string name="write_encrypted_message_remove_file">REMOVE FILE</string>
+    <string name="write_encrypted_message_file_format">FILE FORMAT DOESNT SUPPORTED BY THE APPLICATION!</string>
+    <string name="write_encrypted_message_remove_record">REMOVE RECORD</string>
+    <string name="write_encrypted_message_change_video">CHANGE VIDEO</string>
+    <string name="write_encrypted_message_remove_video">REMOVE VIDEO</string>
+    <string name="write_encrypted_message_video_gallery">ADD VIDEO FROM GALLERY</string>
+    <string name="write_encrypted_message_video_record">TAKE A VIDEO RECORDING</string>
+    <string name="write_encrypted_message_stop_record">STOP RECORDING:</string>
+    <string name="write_encrypted_message_location_map">SHOW LOCATION AT MAP</string>
+    <string name="write_encrypted_message_location_change">CHANGE LOCATION</string>
+    <string name="write_encrypted_message_location_remove">REMOVE LOCATION</string>
+    <string name="write_encrypted_message_location_title">LOCATION:</string>
+    <string name="write_encrypted_message_upload_file_success">UPLOAD FILE SUCCESS!</string>
+    <string name="write_encrypted_message_upload_file_failure">UPLOAD FILE FAILURE!</string>
+    <string name="write_encrypted_message_location_add">ADD LOCATION</string>
+    <string name="write_encrypted_message_location_check">PLEASE ENABLE YOUR LOCATION SERVICE , IN ORDER TO SHARE LOCATIONS!</string>
+    <string name="write_encrypted_message_location_success">YOUR LOCATION COORDINATES ADDED SUCCESSFULLY!</string>
+
+    <!-- HomeScreen: -->
+    <string name="home_screen_title">HOME SCREEN:</string>
+    <string name="home_screen_user">USER</string>
+    <string name="home_screen_user_welcome">User:</string>
+    <string name="home_screen_read_encrypted_message">READ MESSAGE</string>
+    <string name="home_screen_write_encrypted_message">WRITE MESSAGE</string>
+    <string name="home_screen_encrypted_message">MESSAGES</string>
+    <string name="home_screen_encrypted_change_background">SETTINGS</string>
+    <string name="home_screen_encrypted_change_about_us">ABOUT US</string>
+    <string name="home_screen_encrypted_change_contact_us">CONTACT US</string>
+
+    <!-- ForgotPassword: -->
+    <string name="forgot_password_reminder">REMINDER</string>
+    <string name="forgot_password_email">E-MAIL:</string>
+    <string name="forgot_password_successfull">YOUR PASSWORD SENT TO YOUR E-MAIL SUCCESSFULLY</string>
+    <string name="forgot_password_empty">E-MAIL ADRESS CANNOT BE EMPTY</string>
+    <string name="forgot_password_invalid_format">INVALID E-MAIL FORMAT</string>
+    <string name="forgot_password_invalid_email">INVALID E-MAIL</string>
+    <string name="forgot_password_wait">PLEASE WAIT....</string>
+    <string name="forgot_password_username">Username:</string>
+    <string name="forgot_password_password">Password:</string>
+    <string name="forgot_password_check_network_access_fail">NO NETWORK ACCESS FOUND , PLEASE CONNECT YOUR DEVICE TO NETWORK AND TRY AGAIN</string>
+
+
+    <!-- ReadEncryptedMessage: -->
+    <string name="read_encrypted_message">MESSAGE LIST:</string>
+    <string name="read_encrypted_message_phone_number">PHONE NUMBER:</string>
+    <string name="read_encrypted_message_message">MESSAGE:</string>
+    <string name="read_encrypted_message_title_delete">DELETE MESSAGE</string>
+    <string name="read_encrypted_message_read">READ</string>
+    <string name="read_encrypted_message_title_cipher">DECRYPT MESSAGE</string>
+    <string name="read_encrypted_message_cache_empty">CACHES ARE EMPTY PLEASE OPEN A NETWORK CONNECTION WHILE READING MESSAGES!</string>
+    <string name="read_encrypted_message_file_path_empty">COULDNT FIND YOUR FILE PATH IN YOUR CACHES PLEASE OPEN A NETWORK CONNECTION WHILE READING THIS MESSAGE!</string>
+    <string name="read_encrypted_message_title_encrypted">ENCRYPTED MESSAGE</string>
+    <string name="read_encrypted_message_title_decrypted_message">DECRYPTED MESSAGE:</string>
+    <string name="read_encrypted_message_internet_activated">INTERNET ACTIVATED ,CACHES DEACTIVATED!</string>
+    <string name="read_encrypted_message_internet_deactivated">INTERNET DEACTIVATED,CACHES ACTIVATED!</string>
+    <string name="read_encrypted_message_delete_title">DELETE ALL MESSAGES:</string>
+    <string name="read_encrypted_message_delete_account_alert_dialog">ARE YOU SURE TO DELETE MESSAGES?</string>
+    <string name="read_encrypted_message_delete_successfull">MESSAGES DELETED SUCCESSFULLY!</string>
+    <!-- ChangeTheme: -->
+    <string name="change_theme_night_theme">NIGHT THEME</string>
+    <string name="change_theme_title">CHANGE APPLICATION THEME:</string>
+    <string name="change_theme_video">CHANGE APPLICATION VIDEO:</string>
+    <string name="change_theme_autmn_theme">AUTUMN THEME</string>
+    <string name="change_theme_spring_theme">SPRING THEME</string>
+    <string name="change_theme_winter_theme">WINTER THEME</string>
+    <string name="change_theme_sunlight_theme">SUNLIGHT THEME</string>
+    <string name="change_theme_moon_theme">MOONLIGHT THEME</string>
+    <string name="change_theme_summer_theme">SUMMER THEME</string>
+    <string name="change_theme_default_theme">DEFAULT THEMES</string>
+    <string name="change_theme_extra_theme">EXTRA THEMES</string>
+    <!-- Verification: -->
+    <string name="verification_code">Verification Code:</string>
+    <string name="verification_verify">VERIFY</string>
+    <string name="verification_counter">COUNTER:</string>
+    <string name="verification_empty">VERIFICATION CODE CANNOT BE EMPTY!</string>
+    <string name="verification_invalid">INVALID VERIFICATION CODE!</string>
+    <string name="verification_success">YOUR ACCOUNT VERIFIED SUCCESSFULLY!</string>
+    <string name="verification_timer_up">VERIFICATION CODE TIMER IS UP!</string>
+
+    <string name="title_activity_maps_helper">Map</string>
+
+    <!-- MapsHelper: -->
+    <string name="maps_helper_marker_title">Your Location:</string>
+
+    <!-- TextToSpeech: -->
+    <string name="text_to_speech_error">Text To Speech Error!</string>
+    <string name="text_to_speech_control_safety">This Message Contains Inappropriate Content Cannot Read From Text To Speech!</string>
+    <string name="text_to_speech_empty">IN ORDER TO USE TEXT TO SPEECH WRITE SOMETHING!</string>
+    <!-- SmsBackgroundTask: -->
+    <string name="sms_background_task_message">You Have An Encrypted Message From CaesarsApp"</string>
+</resources>

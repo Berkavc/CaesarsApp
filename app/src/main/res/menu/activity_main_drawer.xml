@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+
+
+        <item
+            android:id="@+id/nav_read_encrypted_message"
+            android:icon="@drawable/ic_security_black_24dp"
+            android:title="@string/main_activity_read_encrypted_message" />
+        <item
+            android:id="@+id/nav_write_encrypted_message"
+            android:icon="@drawable/ic_message_black_24dp"
+            android:title="@string/main_activity_write_encrypted_message" />
+
+
+            <item
+                android:id="@+id/nav_change_background"
+                android:icon="@drawable/ic_filter_black_24dp"
+                android:title="@string/main_activity_change_background" />
+
+
+
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/ic_accessibility_black_24dp"
+                android:title="@string/main_activity_about_us" />
+            <item
+                android:id="@+id/nav_contact_us"
+                android:icon="@drawable/ic_contacts_black_24dp"
+                android:title="@string/main_activity_contact_us" />
+
+
+
+
+
+</menu>

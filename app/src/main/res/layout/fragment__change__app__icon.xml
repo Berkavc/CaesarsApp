@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.Fragment_Change_App_Icon">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/textView_change_app_icon_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:paddingStart="30dp"
+        android:text="@string/change_app_icon_title" />
+
+    <ImageView
+        android:id="@+id/imageButton_app_icon_number_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_below="@id/textView_change_app_icon_title"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/applogo" />
+
+    <ImageView
+        android:id="@+id/imageButton_app_icon_number_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/textView_change_app_icon_title"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/gladiator_icon" />
+
+    <TextView
+        android:id="@+id/textView_app_icon_number_one"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/imageButton_app_icon_number_one"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginStart="30dp"
+        android:text="@string/change_app_icon_number_one" />
+
+    <TextView
+        android:id="@+id/textView_app_icon_number_two"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/imageButton_app_icon_number_two"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"
+        android:text="@string/change_app_icon_number_two"/>
+
+</RelativeLayout>

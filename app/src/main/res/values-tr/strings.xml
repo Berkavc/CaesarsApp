@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sezar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">CAESARSAPP</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ayarlar</string>
+
+    <string name="menu_home">Ana Menü</string>
+    <string name="menu_gallery">Galeri</string>
+    <string name="menu_slideshow">Slayt şov</string>
+    <string name="menu_tools">Araçlar</string>
+    <string name="menu_share">Paylaş</string>
+    <string name="menu_send">Gönder</string>
+
+
+    <!-- LoginScreen: -->
+    <string name="login_screen_user_name">Kullanıcı Adı:</string>um
+    <string name="login_screen_password">Şifre:</string>
+    <string name="login_screen_login">GİRİŞ</string>
+    <string name="login_screen_check_box">HATIRLA BENİ</string>
+    <string name="login_screen_create_account">HESAP OLUŞTUR</string>
+    <string name="login_screen_forgot_password">ŞİFREMİ UNUTTUM</string>
+    <string name="login_screen_user_name_empty">KULLANICI ADI BOŞ OLAMAZ!</string>
+    <string name="login_screen_user_password_empty">ŞİFRE BOŞ OLAMAZ!</string>
+    <string name="login_screen_invalid_credentials">YANLIŞ KULLANICI ADI VEYA ŞİFRE!</string>
+    <string name="login_screen_account_status_error">BU HESABA ZATEN GİRİŞ YAPILDI!</string>
+    <string name="login_screen_permission">UYGULAMAYI KULLANMAK İÇİN LÜTFEN İZİNLERİ VERİNİZ!</string>
+    <string name="login_screen_successfull">SEZARIN UYGULAMASINA HOŞ GELDİNİZ!</string>
+    <string name="login_screen_invalid_phone_number">YANLIŞ PARMAK İZİ</string>
+    <string name="write_encrypted_message_phone_edit_text">\t\tAlıcı:</string>
+    <string name="login_screen_caches_empty">ÇEREZLER BOŞ!</string>
+    <string name="login_screen_permission_access">İZİNLER VERİLDİ!</string>
+    <string name="login_screen_internet_connection_failure">SERVER BAĞLANTISI KURULAMIYOR!</string>
+    <string name="login_screen_permission_deny">"UYGULAMANIN DÜZGÜN ÇALIŞMASI İÇİN LÜTFEN İZİNLERİ VERİNİZ!"</string>
+    <string name="write_encrypted_message_message_edit_text">\t\tMesajınızı buraya yazın:</string>
+    <string name="login_screen_accessing_from_different_device">YOUR ACCOUNT HAS BEEN ACCESSED FROM DIFFERENT DEVICE RATHER THAN THE DEVICE YOUR TELEPHONE NUMBER IS REGISTERED</string>
+    <string name="title_activity_create_account">Hesap Oluştur</string>
+
+
+    <!-- CreateAccount: -->
+    <string name="create_account_user_name">Kullanıcı Adı:</string>
+    <string name="create_account_password">Şifre:</string>
+    <string name="create_account_email">E-Mail:</string>
+    <string name="create_account_user_name_empty">KULLANICI ADI BOŞ OLAMAZ!</string>
+    <string name="create_account_password_empty">ŞİFRE BOŞ OLAMAZ!</string>
+    <string name="create_account_email_empty">E-MAIL BOŞ OLAMAZ!</string>
+    <string name="create_account_phone_empty">TELEFON NUMARASI BOŞ OLAMAZ!</string>
+    <string name="create_account_phone_format">YANLIŞ TELEFON FORMATI!!</string>
+    <string name="create_account_successfull">HESABINIZ BAŞARILI BİR ŞEKİLDE OLUŞTURULDU!</string>
+    <string name="create_account_email_format">YANLIŞ E-MAİL FORMATI!</string>
+    <string name="create_account_permission">UYGULAMAYI KULLANMAK İÇİN LÜTFEN İZİNLERİ VERİNİZ!</string>
+    <string name="create_account_email_duplication">BU E-MAİL ZATEN VAR!</string>
+    <string name="create_account_user_name_duplication">BU KULLANICI ADI ZATEN VAR!</string>
+    <string name="create_account_device_id_duplication">BU CİHAZ NUMARASI ZATEN VAR!</string>
+    <string name="create_account_phone">Telefon Numarası:</string>
+    <string name="create_account_phone_duplication">BU TELEFON NUMARASI ZATEN VAR!</string>
+    <string name="create_account_phone_contact">TELEFON NUMARANIZA ERİŞİM SAĞLANAMADI , LÜTFEN ERİŞİME İZİN VERİN</string>
+
+    <!-- MainActivity: -->
+    <string name="main_activity_encrypted_message">Şifreli Mesaj:</string>
+    <string name="main_activity_read_encrypted_message">Mesaj Oku</string>
+    <string name="main_activity_write_encrypted_message">Mesaj Yaz</string>
+
+    <string name="main_activity_message_box">Mesaj Kutusu:</string>
+    <string name="main_activity_encrypted_message_list">Şifreli Mesajlar</string>
+    <string name="main_activity_change_storage_area">Depolama Alanı Değiştir</string>
+    <string name="main_activity_safe_filter">MESAJLARINIZ İÇİN GÜVENLİ FİLTRELEME AKTİVE EDİLDİ!</string>
+    <string name="main_activity_safe_filter_deactivate">MESAJLARINIZ İÇİN GÜVENLİ FİLTRELEME DEAKTİVE EDİLDİ!</string>
+    <string name="main_activity_settings">Ayarlar:</string>
+    <string name="main_activity_change_background">Temayı Değiştir</string>
+    <string name="main_activity_change_app_icon">Uygulama İkonu Değiştir</string>
+    <string name="main_activity_delete_account">Hesabı Sil</string>
+    <string name="main_activity_help">Yardım:</string>
+    <string name="main_activity_about_us">Hakkımızda</string>
+    <string name="main_activity_contact_us">Bize Ulaşın</string>
+
+    <string name="main_activity_exit_application">Uygulamadan Çık</string>
+    <string name="main_activity_change_account">Hesap Değiştir</string>
+    <string name="main_activity_delete_account_yes">EVET</string>
+    <string name="main_activity_delete_account_no">HAYIR</string>
+    <string name="main_activity_delete_account_message">HESABINIZ BAŞARILI BİR ŞEKİLDE SİLİNDİ!</string>
+    <string name="main_activity_delete_account_alert_dialog">Hesabınızı silmekten eminmisiniz?(Eğer hesabınızı silerseniz , bütün bilgilerinzde silinecektir)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- AboutUs: -->
+    <string name="about_us_title">BEN KİMİM:</string>
+    <string name="about_us_context">BEN MOBİL UYGULAMA GELİŞTİRMEK İSTEYEN , YAŞAR ÜNİVERSİTESİ 4.SINIF ÖĞRENCİSİYİM.</string>
+    <string name="about_us_fact_title">CAESARSAPP Bilgileri:</string>
+    <string name="about_us_fact_number_one">1)FIRST ENCRYPTION ALGORITHM NAME IS BASED ON OUR GREAT EMPEROR "GAIUS JULIUS CAESAR" , WHICH CALLED "CAESAR CIPHER ALGORITHM" </string>
+    <string name="about_us_fact_number_two">2)BY THE WAY IM NOT OBSESSED WITH CAESAR , JUST A FRIENDLY REMINDER :)</string>
+    <string name="about_us_fact_number_three">3)Creator:Berk Avcıoğlu</string>
+    <!-- ContactUs: -->
+    <string name="contact_us_title">KENDİMİ NASIL GELİŞTİREBİLİRİM , BURADAKİ İLETİŞİM KANALINDAN BANA ULAŞABİLİRSİNİZ.</string>
+    <string name="contact_us_email">E-MAIL YOLUYLA:</string>
+    <string name="contact_us_feedback">GERİ BİLDİRİMİNİZ İÇİN TEŞEKKÜR EDERİM!</string>
+    <string name="contact_us_email_one">1)berk_avcioglu@hotmail.com</string>
+
+
+
+    <!-- ChangeAppIcon: -->
+    <string name="change_app_icon_title">UYGULAMA İKONUNU BURDAN DEĞİŞTİREBİLİRSİNİZ:</string>
+    <string name="change_app_icon_number_one">DEFAULT APP IKONU</string>
+    <string name="change_app_icon_number_two">APP IKONU #1</string>
+
+
+    <!--WriteEncryptedMessage: -->
+    <string name="write_encrypted_message_title">ŞİFRELİ MESAJINIZI GÖNDERİN:</string>
+    <string name="write_encrypted_message_phone_number">TELEFON NUMARASI:</string>
+    <string name="write_encrypted_message_phone_format_fail">YANLIŞ TELEFON FORMATI</string>
+    <string name="write_encrypted_message_box">MESAJINIZ:</string>
+    <string name="write_encrypted_message_permission">İZİN KAPALI MESAJ GÖNDERİLEMİYOR</string>
+    <string name="write_encrypted_message_permission_success">İZİN VERİLDİ!</string>
+    <string name="write_encrypted_message_succes">MESAJ BAŞARILI BİR ŞEKİLDE GÖNDERİLDİ!</string>
+    <string name="write_encrypted_message_fail">MESAJ GÖNDERME BAŞARISIZ</string>
+    <string name="write_encrypted_message_send">GÖNDER</string>
+    <string name="write_encrypted_message_recycler_view_place_holder">+905312874647</string>
+    <string name="write_encrypted_message_box_empty">MESAJINIZ BOŞ OLAMAZ</string>
+    <string name="write_encrypted_message_reciever_name">GÖNDERİLECEK KİŞİ:</string>
+    <string name="write_encrypted_message_phone_empty">TELEFON NUMARASI BOŞ OLAMAZ</string>
+    <string name="write_encrypted_message_cardview_cancel">İPTAL</string>
+    <string name="write_encrypted_message_cardview_remove">KULLANICIYI KALDIR</string>
+    <string name="write_encrypted_message_doesnt_exist">BÖYLE BİR KULLANICI BULUNAMADI</string>
+    <string name="write_encrypted_message_list_element_exists">BU TELEFON NUMARASI ZATEN LİSTEYE EKLENDİ</string>
+    <string name="write_encrypted_message_sms_title">MESAJ SEZARIN UYGULAMASI TARAFINDAN ŞİFRELENMİŞTİR</string>
+    <string name="write_encrypted_message_file_title">DOSYA EKLE:</string>
+    <string name="write_encrypted_message_image_gallery">GALERİDEN FOTOĞRAF EKLE</string>
+    <string name="write_encrypted_message_image_photo">FOTOĞRAF ÇEK</string>
+    <string name="write_encrypted_message_audio_gallery">GALERİDEN SES KAYDI EKLE</string>
+    <string name="write_encrypted_message_audio_record">SES KAYDI AL</string>
+    <string name="write_encrypted_message_change_photo">FOTOĞRAF DEĞİŞTİR</string>
+    <string name="write_encrypted_message_remove_photo">FOTOĞRAFI ÇIKAR</string>
+    <string name="write_encrypted_message_change_record">SES KAYDI DEĞİŞTİR</string>
+    <string name="write_encrypted_message_remove_record">SES KAYDI ÇIKAR</string>
+    <string name="write_encrypted_message_change_video">VİDEO DEĞİŞTİR</string>
+    <string name="write_encrypted_message_remove_video">VİDEO KALDIR</string>
+    <string name="write_encrypted_message_video_gallery">GALERİDEN VİDEO EKLE</string>
+    <string name="write_encrypted_message_video_record">VİDEO ÇEK</string>
+    <string name="write_encrypted_message_stop_record">KAYIT ETMEYİ DURDUR:</string>
+    <string name="write_encrypted_message_location_map">LOKASYONU HARİTADA GÖSTER</string>
+    <string name="write_encrypted_message_file">DÖKÜMANLARDAN DOSYA EKLE</string>
+    <string name="write_encrypted_message_change_file">DOSYA DEĞİŞTİR</string>
+    <string name="write_encrypted_message_remove_file">DOSYA KALDIR</string>
+    <string name="write_encrypted_message_file_format">DOSYA FORMATI UYGULAMA TARAFINDAN DESTEKLENMİYOR!</string>
+    <string name="write_encrypted_message_location_change">LOKASYONU DEĞİŞTİR</string>
+    <string name="write_encrypted_message_location_remove">LOKASYONU SİL</string>
+    <string name="write_encrypted_message_location_title">LOKASYON:</string>
+    <string name="write_encrypted_message_upload_file_success">DOSYA BAŞARILI BİR ŞEKİLDE EKLENDİ!</string>
+    <string name="write_encrypted_message_upload_file_failure">DOSYA EKLEME İŞLEMİ BAŞARISIZ!</string>
+    <string name="write_encrypted_message_location_add">LOKASYON EKLE</string>
+    <string name="write_encrypted_message_location_check">KONUM PAYLAŞIMINI KULLANMAK İÇİN , LÜTFEN KONUM SERVİSİNİZİ AKTİF EDİNİZ!</string>
+    <string name="write_encrypted_message_location_success">LOKASYON KOORDİNATLARINIZ BAŞARILI BİR ŞEKİLDE ALINDI!</string>
+
+
+    <!-- HomeScreen: -->
+    <string name="home_screen_title">ANA EKRAN:</string>
+    <string name="home_screen_user">KULLANICI</string>
+    <string name="home_screen_user_welcome">Kullanıcı:</string>
+    <string name="home_screen_read_encrypted_message">MESAJ OKU</string>
+    <string name="home_screen_write_encrypted_message">MESAJ YAZ</string>
+    <string name="home_screen_encrypted_message">MESAJLAR</string>
+    <string name="home_screen_encrypted_change_background">AYARLAR</string>
+    <string name="home_screen_encrypted_change_about_us">HAKKIMIZDA</string>
+
+    <string name="home_screen_encrypted_change_contact_us">BİZE ULAŞIN</string>
+
+    <!-- ForgotPassword: -->
+    <string name="forgot_password_reminder">HATIRLAT</string>
+    <string name="forgot_password_email">E-MAIL:</string>
+    <string name="forgot_password_successfull">ŞİFRENİZ BAŞARILI BİR ŞEKİLDE E-MAİLİNİZE GÖNDERİLDİ</string>
+    <string name="forgot_password_empty">E-MAIL ADRESİ BOŞ OLAMAZ</string>
+    <string name="forgot_password_invalid_format">YANLIŞ E-MAİL FORMATI</string>
+    <string name="forgot_password_invalid_email">YANLIŞ E-MAİL</string>
+    <string name="forgot_password_wait">LÜTFEN BEKLEYİN....</string>
+    <string name="forgot_password_username">Kullanici <Adi></Adi>:</string>
+    <string name="forgot_password_password">Sifre:</string>
+    <string name="forgot_password_check_network_access_fail">İNTERNETE BAĞLANAMADI , LÜTFEN CİHAZINIZI İNTERNETE BAĞLAYIN VE TEKRAR DENEYİN</string>
+
+    <!-- ReadEncryptedMessage: -->
+    <string name="read_encrypted_message">MESAJ LİSTESİ:</string>
+    <string name="read_encrypted_message_phone_number">TELEFON NUMARASI:</string>
+    <string name="read_encrypted_message_message">MESAJ:</string>
+    <string name="read_encrypted_message_title_delete">MESAJI SİL</string>
+    <string name="read_encrypted_message_read">OKUNDU</string>
+    <string name="read_encrypted_message_title_cipher">MESAJI ÇÖZ</string>
+    <string name="read_encrypted_message_title_encrypted">ŞİFRELİ MESAJ</string>
+    <string name="read_encrypted_message_cache_empty">ÇEREZLER BOŞ LÜTFEN İNTERNETİNİZİ AÇIP , MESAJLARINIZ İNTERNET AÇIK BİR ŞEKİLDE OKUYUNUZ!</string>
+    <string name="read_encrypted_message_file_path_empty">DOSYA KONUMUNU ÇEREZLERİNİZDE BULUNAMADI , LÜTFEN BU MESAJI İNTERNET AÇIK BİR ŞEKİLDE OKUYUNUZ!</string>
+    <string name="read_encrypted_message_title_decrypted_message">ŞİFRESİ ÇÖZÜLMÜŞ MESAJ:</string>
+    <string name="read_encrypted_message_delete_title">BÜTÜN MESAJLARI SİL:</string>
+    <string name="read_encrypted_message_delete_account_alert_dialog">MESAJLARI SİLMEKTEN EMİNMİSİN?</string>
+    <string name="read_encrypted_message_delete_successfull">MESAJLAR BAŞARILI BİR ŞEKİLDE SİLİNDİ!</string>
+    <string name="read_encrypted_message_internet_activated">INTERNET AKTİF EDİLDİ,ÇEREZLER DEAKTİF EDİLDİ!</string>
+    <string name="read_encrypted_message_internet_deactivated">INTERNET DEAKTİF EDİLDİ,ÇEREZLER AKTİF EDİLDİ!</string>
+    <!-- ChangeTheme: -->
+    <string name="change_theme_night_theme">GECE TEMASI</string>
+    <string name="change_theme_default_theme">VARSAYILAN TEMALAR</string>
+    <string name="change_theme_title">UYGULAMA TEMASI DEĞİŞTİR:</string>
+    <string name="change_theme_autmn_theme">SONBAHAR TEMASI</string>
+    <string name="change_theme_video">UYGULAMA VİDEOSUNU DEĞİŞTİR:</string>
+    <string name="change_theme_spring_theme">İLKBAHAR TEMASI</string>
+    <string name="change_theme_winter_theme">KIŞ TEMASI</string>
+    <string name="change_theme_summer_theme">YAZ TEMASI</string>
+    <string name="change_theme_sunlight_theme">GÜNEŞIŞIĞI TEMASI</string>
+    <string name="change_theme_moon_theme">AYIŞIĞI TEMASI</string>
+    <string name="change_theme_extra_theme">EXTRA TEMALAR</string>
+    <!-- Verification: -->
+    <string name="verification_code">Doğrulama Kodu:</string>
+    <string name="verification_verify">DOĞRULA</string>
+    <string name="verification_counter">SAYAÇ:</string>
+    <string name="verification_empty">DOĞRULAMA KODU BOŞ OLAMAZ!</string>
+    <string name="verification_invalid">YANLIŞ DOĞRULAMA KODU!</string>
+    <string name="verification_success">HESABINIZ BAŞARILI BİR ŞEKİLDE DOĞRULANDI!</string>
+    <string name="verification_timer_up">DOĞRULAMA KODU ZAMANI DOLDU!</string>
+
+    <string name="title_activity_maps_helper">Harita</string>
+
+    <!-- MapsHelper: -->
+    <string name="maps_helper_marker_title">Lokasyonunuz:</string>
+
+    <!-- TextToSpeech: -->
+    <string name="text_to_speech_error">Sesli Okuma Hatası!</string>
+    <string name="text_to_speech_control_safety">Bu Mesaj Uygunsuz İçerik Barındırmaktadır Sesli Okuma Gerçekleştirilemiyor!</string>
+    <string name="text_to_speech_empty">SESLİ OKUMAYI KULLANMAK İÇİN BİRŞEYLER YAZIN!</string>
+    <!-- SmsBackgroundTask: -->
+    <string name="sms_background_task_message">Sezarın Uygulamasında Şifreli Bir Mesajınız Var!"</string>
+</resources>

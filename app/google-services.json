@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "423454752520",
+    "firebase_url": "https://mutlu-387e2.firebaseio.com",
+    "project_id": "mutlu-387e2",
+    "storage_bucket": "mutlu-387e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423454752520:android:afc5e3daf076a8591fb6bd",
+        "android_client_info": {
+          "package_name": "com.example.sezar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423454752520-lqsnhf8026bsrqne4e9b41cgata9btt5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sezar",
+            "certificate_hash": "34d013e253b9ff3d00345bb0dabd86ce946acf65"
+          }
+        },
+        {
+          "client_id": "423454752520-5ep13qtabf9r3kdtf10r7113943chs15.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVuhKtMgzzMuyaSN13fejy0fgi0imfE-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423454752520-5ep13qtabf9r3kdtf10r7113943chs15.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

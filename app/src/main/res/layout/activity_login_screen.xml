@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".activity.LoginScreen">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image_logo"
+                android:src="@drawable/sezar_icon_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:scaleType="fitCenter"/>
+
+            <EditText
+                android:id="@+id/editText_login_screen_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/inputs"
+                android:layout_below="@+id/image_logo"
+                android:drawableStart="@drawable/user"
+                android:inputType="textPersonName"
+                android:padding="4dp"
+                android:textSize="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="17dp"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:hint="@string/login_screen_user_name"
+                android:singleLine="true"
+                android:textAllCaps="false"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText_login_screen_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:drawableStart="@drawable/password"
+                android:background="@drawable/inputs"
+                android:layout_below="@+id/editText_login_screen_username"
+                android:padding="4dp"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="17dp"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:hint="@string/login_screen_password"
+                android:inputType="numberPassword"
+                android:singleLine="true"
+                android:textAllCaps="false"
+                android:textStyle="bold" />
+
+
+            <CheckBox
+                android:id="@+id/checkBox_login_screen_reminder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/button_background"
+                android:hint="@string/login_screen_check_box"
+                android:singleLine="true"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/editText_login_screen_password"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="23dp"
+                android:layout_marginBottom="15dp"
+                android:textAlignment="textStart"
+                android:textSize="17sp"
+                android:textColor="@color/colorPrimaryDark"/>
+            <ImageView
+                android:id="@+id/imageView_finger_print"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/checkBox_login_screen_reminder"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_fingerprint_black_24dp" />
+
+
+            <Button
+                android:id="@+id/button_login_screen_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_background"
+                android:text="@string/login_screen_login"
+                android:textColor="@color/text_color"
+                android:textStyle="bold"
+                android:layout_below="@+id/imageView_finger_print"/>
+
+            <Button
+                android:id="@+id/button_login_screen_create_an_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_background"
+                android:text="@string/login_screen_create_account"
+                android:textColor="@color/text_color"
+                android:textStyle="bold"
+                android:layout_below="@+id/button_login_screen_login"/>
+
+            <Button
+                android:id="@+id/button_login_screen_forgot_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_background"
+                android:text="@string/login_screen_forgot_password"
+                android:textColor="@color/text_color"
+                android:textStyle="bold"
+                android:layout_below="@+id/button_login_screen_create_an_account"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
